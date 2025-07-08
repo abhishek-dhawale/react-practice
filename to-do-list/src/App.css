@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html, body {
+  height: 100%;
+  background-color: #f0f0f0;
+}
+
+
+.App {
+  width: 1170px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+form {
+  width: 585px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+}
+
+form input {
+  height: 40px;
+  flex-basis: 70%;
+}
+
+form button {
+  flex-basis: 30%;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.outerDiv {
+  width: 585px;
+  margin: 20px auto;
+}
+
+.outerDiv ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.outerDiv ul li {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.outerDiv ul li span {
+  cursor: pointer;
+  color: red;
+}
+
+.completetodo {
+  text-decoration: line-through;
+  color: gray;
+  background: #333 !important;
+}
